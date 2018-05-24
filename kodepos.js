@@ -52,7 +52,7 @@ let questions = [{
                     },
                     {
                         name: 'Propinsi',
-                        value: 'propinsi'
+                        value: 'provinsi'
                     },
                     {
                         name: 'Cari semua',
@@ -164,7 +164,7 @@ function consoleLog(d, k) {
 }
 
 quest.prompt(questions).then(answers => {
-	let filename = answers.filename + answers.format;
+	let filename = './download/' + answers.filename + answers.format;
 	writer.pipe(fs.createWriteStream(filename));
 	let link = api + answers.keys;
 	getData(link, answers.type, filename, answers.keys);
