@@ -1,0 +1,31 @@
+{
+  "name": "kodepos",
+  "version": "1.0.0",
+  "description": "kodepos indonesia",
+  "main": "kodepos.js",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "http": "0.0.0",
+    "lineup": "0.0.7",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint kodepos.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dedenbangkit/kodepos.git"
+  },
+  "keywords": [
+    "kodepos",
+    "zip",
+    "indonesia"
+  ],
+  "author": "Deden Bangkit",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dedenbangkit/kodepos/issues"
+  },
+  "homepage": "https://github.com/dedenbangkit/kodepos#readme"
+}
